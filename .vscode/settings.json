@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.gltf": "json",
+        "webgpu_glfw.h": "c",
+        "*.inc": "c"
+    }
+}

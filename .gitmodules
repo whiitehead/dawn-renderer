@@ -1,3 +1,6 @@
 [submodule "dawn"]
-	path = dawn
+	path = extern/dawn
 	url = https://dawn.googlesource.com/dawn
+[submodule "extern/glm"]
+	path = extern/glm
+	url = git@github.com:g-truc/glm.git
