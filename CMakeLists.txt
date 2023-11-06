@@ -2,9 +2,6 @@ cmake_minimum_required(VERSION 3.13) # CMake version check
 project(app)                         # Create project "app"
 set(CMAKE_CXX_STANDARD 20)           # Enable C++20 standard
 
-option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
-set(BUILD_SHARED_LIBS, OFF)
-
 add_executable(app "src/main.cpp")
 
 if(EMSCRIPTEN)
